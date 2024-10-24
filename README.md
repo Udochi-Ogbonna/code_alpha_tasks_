@@ -1,8 +1,8 @@
 ![microsoft-logo-01](https://github.com/user-attachments/assets/8c555b46-ce05-46e5-9d0f-9292c9b240f4)
 
-#Microsoft Stock Price Prediction using Stacked LSTM Model
+Microsoft Stock Price Prediction using Stacked LSTM Model
 
-#Project Overview:
+Project Overview:
 
 This project aims to predict Microsoft (MSFT) stock prices from January 01, 2014, to October 17, 2024, using a Stacked Long Short-Term Memory (LSTM) neural network. The model is trained on historical stock price data and forecasts future prices based on identified patterns. The Stacked LSTM architecture is particularly well-suited for financial time series data, capturing both short-term and long-term temporal dependencies.
 
@@ -13,11 +13,13 @@ Key Features:
 - Stacked LSTM model for capturing complex temporal patterns
 
 - Performance Metrics:
+  
     - Training RMSE: 7.22
+      
     - Testing RMSE: 30.03
     
 - Forecast: The model predicts a slight significant drop in MSFT stock prices for the next 30 days
-- 
+
 Key Objectives:
 
 1.	Build a stacked LSTM model to predict future stock prices.
@@ -77,6 +79,7 @@ The code initializes a Sequential LSTM model for time series prediction. It cons
 
 4. Results:
 •	Training RMSE: 7.22
+
 •	Testing RMSE: 30.03
 
 This indicates that the model performs much better on the training data compared to the test data, showing a significant gap in RMSE. This is a common sign of overfitting, where the model is too closely tailored to the training data and struggles to generalize to new, unseen data (test set).
