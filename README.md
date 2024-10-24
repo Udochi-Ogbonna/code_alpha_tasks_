@@ -1,7 +1,6 @@
 ![microsoft-logo-01](https://github.com/user-attachments/assets/8c555b46-ce05-46e5-9d0f-9292c9b240f4)
 
-
-Microsoft Stock Price Prediction using Stacked LSTM Model
+#Microsoft Stock Price Prediction using Stacked LSTM Model
 
 #Project Overview:
 
@@ -32,14 +31,21 @@ Table of Contents:
 4.	Results
 5.	Visualization
 6.	Conclusion
-
+   
 1. Installation:
+   
 To run this project, you'll need the following libraries:
+
 •	TensorFlow
+
 •	Keras
+
 •	NumPy
+
 •	Pandas
+
 •	Matplotlib
+
 •	Scikit-learn
 
 2. Data Preprocessing:
